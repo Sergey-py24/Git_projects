@@ -17,7 +17,7 @@ def fibonacci_set(number):
     return fib_set
 
 number = int(input())
-result = tuple(fibonacci_set(number))
+result = list(fibonacci_set(number))
 result = sorted(result)
 print(result)
 
