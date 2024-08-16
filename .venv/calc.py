@@ -37,7 +37,7 @@ def mul():
 
 
 window = tk.Tk()
-window.title('Калькулятор')
+window.title('Счетная машина')
 window.geometry("350x350")
 window.resizable(False, False)
 button_add = tk.Button(window, text="+", width=2, height=2, command=add,bg='blue')
@@ -54,11 +54,11 @@ number2_entry = tk.Entry(window, width=28)
 number2_entry.place(x=100, y=150)
 answer_entry = tk.Entry(window, width=28)
 answer_entry.place(x=100, y=300)
-number1 = tk.Label(window, text="Введите первое число:")
+number1 = tk.Label(window, text="Введите первое число:", font=("Helvetica", "10", "italic"))
 number1.place(x=100, y=50)
-number2 = tk.Label(window, text="Введите второе число:")
+number2 = tk.Label(window, text="Введите второе число:", font=("Helvetica", "10", "italic"))
 number2.place(x=100, y=125)
-answer = tk.Label(window, text="Ответ:")
+answer = tk.Label(window, text="Результат:", font=("Helvetica", "10", "italic"))
 answer.place(x=100, y=275)
 window.mainloop()
 
