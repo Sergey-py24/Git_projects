@@ -1,7 +1,7 @@
-nums = [3, 2, 4, 9, 7]
+nums = [33, 22, 44, 99, 77, 88, 66, 55]
 
 
-def bubble_sort(ls):  #пузырьковая сортировка
+def bubble_sort(ls):  # пузырьковая сортировка
     swapped = True
     while swapped:
         swapped = False
@@ -15,7 +15,7 @@ def bubble_sort(ls):  #пузырьковая сортировка
 # print(nums)
 
 
-def selection_sort(ls):  #сортировка выборкой
+def selection_sort(ls):  # сортировка выборкой
     for i in range(len(ls)):
         lowest = i
         for j in range(i + 1, len(ls)):
